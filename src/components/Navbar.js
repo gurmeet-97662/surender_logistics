@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
 import logo from "../assets/logo.jpeg"
 
 function Navbar() {
@@ -7,13 +7,13 @@ function Navbar() {
     <>
    <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div className="container">
-      <a className="navbar-brand" href="#">
+      <Link className="navbar-brand" to="/">
         <img
           src={logo}
           alt="..."
           height={45}
         />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"

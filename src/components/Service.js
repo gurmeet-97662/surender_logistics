@@ -6,6 +6,7 @@ import card8 from "../assets/card8.jpeg"
 import card7 from "../assets/card7.jpeg"
 import card9 from "../assets/card9.jpeg"
 import card10 from "../assets/card10.jpeg"
+import { Link } from 'react-router-dom'
 
 
 function Service() {
@@ -32,7 +33,7 @@ function Service() {
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -44,10 +45,10 @@ function Service() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -59,10 +60,10 @@ function Service() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -75,10 +76,10 @@ function Service() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -91,10 +92,10 @@ function Service() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -107,10 +108,10 @@ function Service() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -123,7 +124,7 @@ function Service() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                     </div>

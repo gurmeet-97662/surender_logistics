@@ -6,6 +6,7 @@ import card1 from "../assets/card1.jpeg"
 import card2 from "../assets/card2.jpeg"
 import card3 from "../assets/card3.jpeg"
 import card4 from "../assets/card4.webp"
+import { Link } from 'react-router-dom'
 
 
 function Dashboard() {
@@ -106,7 +107,7 @@ function Dashboard() {
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -119,10 +120,10 @@ function Dashboard() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -135,10 +136,10 @@ function Dashboard() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="">
+                            <Link to="/">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
@@ -152,7 +153,7 @@ function Dashboard() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                     </div>
